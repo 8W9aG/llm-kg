@@ -1,0 +1,6 @@
+timefhuman>=0.1.4
+nltk>=3.9.1
+instructor>=1.10.0
+groq>=0.30.0
+pydantic>=2.11.7
+textblob>=0.19.0
