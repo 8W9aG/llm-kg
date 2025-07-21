@@ -22,7 +22,7 @@ def install_requires() -> typing.List[str]:
 
 
 setup(
-    name='llmkg',
+    name='llmkgext',
     version='0.0.1',
     description='A knowledge graph generator using LLMs.',
     long_description=long_description,
