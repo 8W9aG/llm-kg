@@ -1,7 +1,7 @@
 # llm-kg
 
-<a href="https://pypi.org/project/llmkg/">
-    <img alt="PyPi" src="https://img.shields.io/pypi/v/llmkg">
+<a href="https://pypi.org/project/llmkgext/">
+    <img alt="PyPi" src="https://img.shields.io/pypi/v/llmkgext">
 </a>
 
 A knowledge graph generator using LLMs.
