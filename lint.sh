@@ -4,18 +4,18 @@ set -e
 
 echo "Formatting..."
 echo "--- Ruff ---"
-ruff format llmkg
+ruff format llmkgext
 echo "--- isort ---"
-isort llmkg
+isort llmkgext
 
 echo "Checking..."
 echo "--- Flake8 ---"
-flake8 llmkg
+flake8 llmkgext
 echo "--- pylint ---"
-pylint llmkg
+pylint llmkgext
 echo "--- mypy ---"
-mypy llmkg
+mypy llmkgext
 echo "--- Ruff ---"
-ruff check llmkg
+ruff check llmkgext
 echo "--- pyright ---"
-pyright llmkg
+pyright llmkgext

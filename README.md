@@ -29,7 +29,7 @@ Python 3.11.6:
 
 This is a python package hosted on pypi, so to install simply run the following command:
 
-`pip install llmkg`
+`pip install llmkgext`
 
 or install using this local repository:
 
@@ -37,10 +37,10 @@ or install using this local repository:
 
 ## Usage example :eyes:
 
-The use of `llmkg` is entirely through code due to it being a library. It has exactly the same semantics as a requests session:
+The use of `llmkgext` is entirely through code due to it being a library. It has exactly the same semantics as a requests session:
 
 ```python
-from llmkg import extract
+from llmkgext import extract
 
 
 triples = extract("Rodrigo Martins Vaz, known as Rodrigo (born 24 May 1971), is a retired Brazilian footballer.")
